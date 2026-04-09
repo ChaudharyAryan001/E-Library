@@ -1,20 +1,3 @@
-import pandas as pd
-import numpy as np
-
-data = {
-    'Transaction ID': range(101, 111),
-    'Date': ['2024-01-05', '2024-01-06', '2024-01-07', '2024-01-07', '2024-02-10',
-             '2024-02-12', '2024-03-15', '2024-03-16', '2024-03-17', '2024-03-18'],
-    'User ID': [1, 2, 1, 3, 4, 2, 5, 1, 4, 3],
-    'Book Title': ['Python Basics', 'Data Science 101', 'Python Basics', 'Machine Learning',
-                   'Deep Learning', 'Data Science 101', 'Python Basics', 'NLP Guide', 'Deep Learning', 'Python Basics'],
-    'Genre': ['Tech', 'Tech', 'Tech', 'AI', 'AI', 'Tech', 'Tech', 'AI', 'AI', 'Tech'],
-    'Borrowing Duration (Days)': [5, 7, 3, 10, 14, 2, 8, 5, 12, 4]
-}
-
-df = pd.DataFrame(data)
-df.to_csv('library_transactions.csv', index=False)
-print("Sample dataset 'library_transactions.csv' created successfully.")
 
 import pandas as pd
 import numpy as np
