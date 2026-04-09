@@ -1,0 +1,11 @@
+Transaction ID,Date,User ID,Book Title,Genre,Borrowing Duration (Days)
+101,2024-01-05,1,Python Basics,Tech,5
+102,2024-01-06,2,Data Science 101,Tech,7
+103,2024-01-07,1,Python Basics,Tech,3
+104,2024-01-07,3,Machine Learning,AI,10
+105,2024-02-10,4,Deep Learning,AI,14
+106,2024-02-12,2,Data Science 101,Tech,2
+107,2024-03-15,5,Python Basics,Tech,8
+108,2024-03-16,1,NLP Guide,AI,5
+109,2024-03-17,4,Deep Learning,AI,12
+110,2024-03-18,3,Python Basics,Tech,4
